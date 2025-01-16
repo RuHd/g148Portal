@@ -38,8 +38,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -73,7 +72,6 @@
 
 .quizzLogo {
   fill: white;
-
 }
 
 @media screen and (max-width: 390px){
