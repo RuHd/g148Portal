@@ -39,6 +39,7 @@
     top: 50%;
     transform: translateY(-50%);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -73,4 +74,25 @@
 .quizzLogo {
   fill: white;
 
+}
+
+@media screen and (max-width: 390px){
+  .logo--container {
+    transform: translateX(-50%);
+    left: 17%;
+    top: 0;
+    scale: .1;
+
+    .linesAnimation {
+      left: 50px;
+    }
+
+
+  }
+
+  footer {
+    padding: 0;
+    width: 100%;
+    font-size: 1em;
+  }
 }
