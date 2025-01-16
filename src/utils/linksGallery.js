@@ -4,11 +4,11 @@ import quizzLogo from '../../public/quizzLogo.svg'
 const linksGallery = [
     {
         logo: canvaLogo,
-        path: "https://www.canva.com/pt_pt/"
+        path: "https://www.canva.com/projects"
     },  
     {
         logo: quizzLogo,
-        path: "https://quizizz.com/join"
+        path: "https://quizizz.com/admin"
     },
     // {
     //     logo: "Roleta",
