@@ -9,7 +9,11 @@ const linksGallery = [
     {
         logo: quizzLogo,
         path: "https://quizizz.com/join"
-    }
+    },
+    // {
+    //     logo: "Roleta",
+    //     path: "#"
+    // }
 ]
 
 export default linksGallery

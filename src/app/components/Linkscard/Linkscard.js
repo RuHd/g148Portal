@@ -11,7 +11,6 @@ const Linkscard = ({ urlPath, imageSrc }) => {
                 src={imageSrc}
                 alt='logo'
                 className='logo'
-                
             />
         </Link>
 
