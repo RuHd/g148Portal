@@ -39,7 +39,7 @@
     top: 50%;
     transform: translateY(-50%);
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -88,6 +88,10 @@
     }
 
 
+  }
+
+  ul {
+    flex-direction: column;
   }
 
   footer {
