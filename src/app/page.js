@@ -31,11 +31,14 @@ export default function Home() {
       </section>
       <ul>
         {linksGallery.map((link, id) => {
+
           return (
             <li key={id}>
+              <h2>{link.title.length > 0 && link.title}</h2>
               <Linkscard urlPath={link.path} imageSrc={link.logo} />
             </li>
           )
+
         })}
 
       </ul>

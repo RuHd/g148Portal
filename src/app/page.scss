@@ -45,12 +45,29 @@
     
 
     li {
+      position: relative;
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      font-family: var(--font-yellowtail);
+      color: white;
+      letter-spacing: 10px;
       align-items: center;
       height: max-content;
       width: 100%;
       scale: .8;
+
+
+      &:nth-child(4) {
+      
+        letter-spacing: 5px;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+       
     }
   }
 
@@ -89,7 +106,10 @@
   }
 
   ul {
-    flex-direction: column;
+    flex-wrap: wrap;
+    scale: .8;
+    font-size: .5rem;
+    overflow-x: scroll;
   }
 
   footer {
