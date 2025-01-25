@@ -21,7 +21,7 @@ const linksGallery = [
     },
     {
         logo: sorteioRoleta,
-        path: "https://app-sorteos.com/pt/apps/girar-roleta-aleatoria?hash=LNW597",
+        path: "https://app-sorteos.com/pt/apps/gerador-equipes-aleatorios",
         title: 'Roleta'
     }
 ]
