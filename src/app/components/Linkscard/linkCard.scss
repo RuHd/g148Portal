@@ -34,3 +34,10 @@
     cursor: pointer;
     scale: 1.1;
 }
+
+@media screen and (max-width: 500px) {
+    .linkCard:active {
+        opacity: .4;
+    }
+    
+}
