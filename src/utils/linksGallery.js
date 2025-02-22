@@ -14,11 +14,7 @@ const linksGallery = [
         path: "https://quizizz.com/admin",
         title: ''
     },
-    {
-        logo: sorteioGrupo,
-        path: "https://pt.rakko.tools/tools/59/",
-        title: 'Sorteio Grupo'
-    },
+ 
     {
         logo: sorteioRoleta,
         path: "https://app-sorteos.com/pt/apps/girar-roleta-aleatoria?hash=LNW597",
