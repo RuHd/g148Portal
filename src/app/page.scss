@@ -4,37 +4,10 @@
   height: 100%;
   font-size: 2em;
 
-  .logo--container{
-    text-align: left;
-    scale: .5;
-    position: absolute;
-
-    span {
-      display: block;
-      position: absolute;
-      font-family: var(--font-yellowtail);
-      font-size: 4.5rem;
-      color: white;
-      left: 300px;
-      top: 130px;
-      transform: rotateZ(-11deg);
-    }
-
-    .linesAnimation {
-      position: absolute;
-      width: 100%;
-      height: 50%;
-      transform: rotateZ(-10deg);
-      bottom: -50%;
-      right: 0;
-      z-index: 100;
-    }
-
-  }
 
   ul {
     position: absolute;
-    top: 50%;
+    bottom: -8%;
     transform: translateY(-50%);
     display: flex;    
     justify-content: space-around;
@@ -47,7 +20,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      font-family: var(--font-yellowtail);
+      font-family: var(--font-figtree);
       color: white;
       letter-spacing: 10px;
       align-items: center;
@@ -62,7 +35,7 @@
     color: #f8f8f842;
     font-size: 3rem;
     letter-spacing: 2px;
-    font-family: var(--font-yellowtail);
+    font-family: var(--font-figtree);
     width: 100%;
     padding: 10px;
     position: absolute;

@@ -8,15 +8,15 @@
     text-decoration: none;
     padding: 25px;
     transition: .5s;
-    max-width: 200px;
-    font-size: 20px;
-    scale: 1.5;
+    letter-spacing: 10px;
+    font-size: 30px;
+    
 
     
 
     h2 {
         font-size: 2em;
-        font-weight: lighter;
+        
         text-align: center;
         color: white;
     }
@@ -26,16 +26,16 @@
         left: 0;
         top: 0;
         content: "";
-        width: 100%;
+        width: 0%;
         height: 100%;
-        transition: .3s ease-in;
-        background-color: grey;
-        opacity: 0;
+        transition: .3s ease-out;
+        background-color: #ffa207;
+        opacity: 1;
         z-index: -10;
     }
 
     &:hover::after {
-        opacity: .1;
+        width: 30%;
     }
 
     .logo {
@@ -47,7 +47,7 @@
 
 .linkCard:hover {
     cursor: pointer;
-    scale: 1.7;
+    scale: 1.1;
 }
 
 @media screen and (max-width: 500px) {
